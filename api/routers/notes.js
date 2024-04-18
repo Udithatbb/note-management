@@ -44,7 +44,24 @@ router.get("/notes/get", (req, res) => {
 
 //update Notes
 
-router.put('/notes/update/:id')
+// router.put("/notes/update/:id", (req, res) => {
+//   // Notes.findByIdAndUpdate(
+//   //   req.params.id,
+//   //   {
+//   //     $set: req.body,
+//   //   },
+//   //   (err, notes) => {
+//   //     if (err) {
+//   //       return res.status(400).json({ error: err });
+//   //     }
+
+//   //     return res.status(200).json({
+//   //       success: "Updated Succesfully",
+//   //     });
+//   //   }
+//   // );
+// });
+
 
 
 module.exports = router;
